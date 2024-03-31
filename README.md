@@ -1,4 +1,4 @@
-```markdown
+
 # Bricker Game
 
 ## Overview
