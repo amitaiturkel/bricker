@@ -1,4 +1,3 @@
-
 # Bricker Game
 
 ## Overview
@@ -8,8 +7,9 @@ Bricker is a simple brick breaker game implemented in Java. It provides a classi
 To use the Bricker game, follow these steps:
 1. Clone the repository: `git clone https://github.com/amitaiturkel/bricker.git`
 2. Navigate to the project directory: `cd bricker`
-3. Compile the Java files: `javac *.java`
-4. Run the game: `java BrickerGameManager`
+3. Install DanoGameLab: `git clone https://github.com/DanoGameLab/DanoGameLab.git`
+4. Compile the Java files: `javac -cp DanoGameLab/src:src *.java`
+5. Run the game: `java -cp DanoGameLab/src:src BrickerGameManager`
 
 ## Usage
 Upon running the game, you can control the paddle using the arrow keys. The objective is to bounce the ball to break all the bricks on the screen. Be careful not to let the ball fall off the bottom of the screen, or you will lose a life. Collect falling hearts to gain extra lives and power-ups.
@@ -21,12 +21,12 @@ The Bricker game accepts two optional command line arguments for custom brick co
 
 Example usage:
 ```bash
-java BrickerGameManager 10 5
+java -cp DanoGameLab/src:src BrickerGameManager 10 5
 ```
 
 ## Dependencies
 The game relies on the following Java libraries:
-- danogl: A library for managing game objects, collisions, and graphics.
+- DanoGameLab: A library for managing game objects, collisions, and graphics. (https://github.com/DanoGameLab/DanoGameLab)
 - bricker: A package containing game logic and objects specific to the Bricker game.
 
 ## Contributions
@@ -35,3 +35,4 @@ Contributions to the Bricker game are welcome. If you find any bugs or have sugg
 ## License
 The Bricker game is licensed under the MIT License. See the LICENSE file for more details.
 ```
+This includes the installation steps for DanoGameLab and updates the compilation and running commands accordingly.
