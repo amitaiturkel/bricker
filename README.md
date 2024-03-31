@@ -32,7 +32,3 @@ The game relies on the following Java libraries:
 ## Contributions
 Contributions to the Bricker game are welcome. If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request on the GitHub repository.
 
-## License
-The Bricker game is licensed under the MIT License. See the LICENSE file for more details.
-```
-This includes the installation steps for DanoGameLab and updates the compilation and running commands accordingly.
